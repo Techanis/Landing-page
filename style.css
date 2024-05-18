@@ -1,1 +1,62 @@
 /* styles */
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .container1, .container2, .container3, .container4, .subscribe, .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header {
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.container2 {
+    flex-direction: column;
+}
+
+.container2 {
+    flex-direction: column;
+}
+
+.container2 {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-container {
+    display: flex;
+    /* width: 500px; */
+    gap: 40px;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+}
+
+.card-image {
+    width: 150x;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+}
