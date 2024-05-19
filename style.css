@@ -4,9 +4,10 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
-.header, .container1, .container2, .container3, .subscribe, .footer {
+.container1, .container2, .container3, .subscribe, .footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +15,24 @@ body {
     flex: none;
 }
 
+/* ----------------------------------- */
+
+.container1 {
+    background-color: #1f2937;
+    height: 450px;
+    align-items: stretch;
+}
+
+.container1-box{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+
 .header {
+    display: flex;
+    justify-content: center;
     justify-content:  space-between;
     background-color: #1f2937;
 }
@@ -34,13 +52,20 @@ a {
 
 /* ----------------------------------- */
 
-.container1 {
-    background-color: #1f2937;
-    height: 400px;
+.hero-logo-container {
+    display: flex;
+    margin: auto;
+
 }
 
 .hero-container {
     flex: 1;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
 }
 
 .logo-container {
@@ -86,7 +111,7 @@ a {
     background-color: red;
 }
 
-.quote-rec {
+.container3-box {
     width: 800px;
 }
 
@@ -102,7 +127,7 @@ a {
     height: 300px;
 }
 
-.subscribe-rec {
+.subscribe-box {
     width: 1000px;
     display: flex;
     justify-content: center;
